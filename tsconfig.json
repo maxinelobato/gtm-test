@@ -37,7 +37,4 @@
   "exclude": [
     "node_modules"
   ],
-  "types": [
-    "my-custom-type-definition-file.ts"
-  ]
 }
