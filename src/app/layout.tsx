@@ -17,8 +17,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'GTM Test',
   description: 'GTM Test',
+  verification: {
+    other: {
+      'facebook-domain-verification': ['12kjx6s05yq0i40t14ur1l6i16dmv8'],
+    },
+  },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{
