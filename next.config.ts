@@ -15,6 +15,20 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['@phosphor-icons/react'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/gtmtest',
+        permanent: false,
+      },
+      {
+        source: '/',
+        destination: '/gtmtestsub',
+        permanent: false,
+      },
+    ]
+  },
 }
 
 export default nextConfig

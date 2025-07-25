@@ -3,7 +3,7 @@ import {
   ButtonHome,
   ButtonHomeFlex,
   ButtonHomeText,
-} from './components/Buttons/ButtonCta'
+} from '../components/Buttons/ButtonCta'
 import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr'
 export default function Home() {
   return (

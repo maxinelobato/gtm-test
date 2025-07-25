@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
-import { ButtonFloatWttp } from './components/Buttons'
+import { ButtonFloatWttp } from '../components/Buttons'
 import { GoogleTagManager } from '@next/third-parties/google'
 
 const geistSans = Geist({
@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'GTM Test',
-  description: 'GTM Test',
+  title: 'GTM Test Sub',
+  description: 'GTM Test Sub',
   verification: {
     other: {
       'facebook-domain-verification': ['12kjx6s05yq0i40t14ur1l6i16dmv8'],
@@ -37,10 +37,10 @@ export default function RootLayout({
         <ButtonFloatWttp />
         {children}
       </body>
-      {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID &&
+      {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_SUB &&
         process.env.NODE_ENV === 'production' && (
           <GoogleTagManager
-            gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID!}
+            gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_SUB!}
           />
         )}
     </html>
