@@ -22,7 +22,7 @@ export const metadata: Metadata = {
       'facebook-domain-verification': ['12kjx6s05yq0i40t14ur1l6i16dmv8'],
     },
   },
-  keywords: ['GTM Test'],
+  keywords: ['GTM Test Criminal'],
 }
 export default function RootLayout({
   children,
