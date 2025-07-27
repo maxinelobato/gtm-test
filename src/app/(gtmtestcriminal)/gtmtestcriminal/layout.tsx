@@ -37,10 +37,10 @@ export default function RootLayout({
         <ButtonFloatWttp />
         {children}
       </body>
-      {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_SUB &&
+      {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_CRIMINAL &&
         process.env.NODE_ENV === 'production' && (
           <GoogleTagManager
-            gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_SUB!}
+            gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_CRIMINAL!}
           />
         )}
     </html>
