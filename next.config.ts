@@ -27,6 +27,11 @@ const nextConfig: NextConfig = {
         destination: '/gtmtestsub',
         permanent: false,
       },
+      {
+        source: '/',
+        destination: '/gtmtestcriminal',
+        permanent: false,
+      },
     ]
   },
 }
