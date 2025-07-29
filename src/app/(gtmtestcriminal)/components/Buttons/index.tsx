@@ -5,6 +5,7 @@ export function ButtonFloatWttp() {
   return (
     <>
       <ButtonFloat
+        target="_blank"
         href={`https://wa.me/5594984334432?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
       >
         <WhatsappLogoIcon

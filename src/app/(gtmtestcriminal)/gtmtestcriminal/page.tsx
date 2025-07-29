@@ -14,6 +14,7 @@ export default function Home() {
         </h1>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <ButtonHome
+            target="_blank"
             href={`https://wa.me/5594984334432?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
           >
             <ButtonHomeText>Quero saber mais</ButtonHomeText>
