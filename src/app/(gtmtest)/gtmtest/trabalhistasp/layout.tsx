@@ -37,10 +37,10 @@ export default function TrabalhistaSPLayout({
         <ButtonFloatWttp />
         {children}
       </body>
-      {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID &&
+      {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_TRABALHISTASP &&
         process.env.NODE_ENV === 'production' && (
           <GoogleTagManager
-            gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID!}
+            gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_TRABALHISTASP!}
           />
         )}
     </html>
