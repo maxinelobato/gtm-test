@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
-// import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google'
 import { ButtonFloatWttp } from '../../components/Buttons'
 
 const geistSans = Geist({
@@ -37,12 +37,12 @@ export default function TrabalhistaSPLayout({
         <ButtonFloatWttp />
         {children}
       </body>
-      {/* {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_TRABALHISTASP &&
+      {process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_TRABALHISTASP &&
         process.env.NODE_ENV === 'production' && (
           <GoogleTagManager
             gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID_TRABALHISTASP!}
           />
-        )} */}
+        )}
     </html>
   )
 }
