@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import {
   ButtonHome,
   ButtonHomeFlex,
@@ -10,7 +9,7 @@ export default function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1 className="text-white text-center font-extrabold text-4xl sm:text-6xl">
-          GTM Test Trabalhista
+          GTM Test
         </h1>
         <div className="flex mx-auto gap-4 items-center flex-col sm:flex-row">
           <ButtonHome
@@ -28,7 +27,7 @@ export default function Home() {
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <h1 className="text-white font-medium text-2xl sm:text-3xl">
-          GTM Test Trabalhista
+          GTM Test
         </h1>
       </footer>
     </div>

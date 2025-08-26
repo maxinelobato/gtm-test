@@ -3,7 +3,7 @@ import {
   ButtonHome,
   ButtonHomeFlex,
   ButtonHomeText,
-} from '../../components/Buttons/ButtonCta'
+} from '../components/Buttons/ButtonCta'
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -13,6 +13,7 @@ export default function Home() {
         </h1>
         <div className="flex gap-4 mx-auto items-center flex-col sm:flex-row">
           <ButtonHome
+            target="_blank"
             href={`https://wa.me/5594984334432?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
           >
             <ButtonHomeText>Quero saber mais</ButtonHomeText>
